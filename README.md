@@ -15,18 +15,9 @@ By flashing this kernel, **YOU** are choosing to make these modifications. If so
 <table>
   <tr>
     <th> :warning: </th>
-    <th> Verify <a href="https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/blob/main/compatibility.md">Compatibility</a> of kernels before flashing. </th>
+    <th> Verify <a href="https://github.com/huangdihd/OnePlus_ReSukiSU_SUSFS/blob/main/compatibility.md">Compatibility</a> of kernels before flashing. </th>
   </tr>
 </table>
-
----
-
-# Kernels:
- 
-[GKI](https://github.com/WildKernels/GKI_KernelSU_SUSFS)  
-[Sultan](https://github.com/WildKernels/Sultan_KernelSU_SUSFS)  
-[OnePlus](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS)  
-[Legacy Pixels](https://github.com/WildKernels/Pixel_KernelSU_SUSFS)  
 
 ---
 
@@ -59,7 +50,7 @@ To get boot.img format:
 # Credits
 
 - **KernelSU**: Developed by [tiann](https://github.com/tiann/KernelSU).
-- **KernelSU-Next**: Developed by [rifsxd](https://github.com/KernelSU-Next/KernelSU-Next).
+- **[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU).**
 - **Magic-KSU**: Developed by [5ec1cff](https://github.com/5ec1cff/KernelSU).  
 - **SUSFS**: Developed by [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git).
 - **SUSFS Module**: Developed by [sidex15](https://github.com/sidex15).
