@@ -1,4 +1,5 @@
 name: 'Build OnePlus Kernel with KernelSU Next'
+description: 'GitHub Action to build OnePlus kernels with optional KernelSU Next and SUSFS integration, optimized for performance and reliability'
 inputs:
   op_config_json:
     description: 'JSON string containing full device config'
