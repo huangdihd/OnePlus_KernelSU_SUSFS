@@ -73,7 +73,7 @@ jobs:
       device_count: ${{ steps.set-matrix.outputs.count }}
     steps:
       - name: 📥 Checkout Code (to access configs/)
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           sparse-checkout: |
             configs/
@@ -339,7 +339,7 @@ jobs:
           echo "susfs_branch=$susfs_branch" >> "$GITHUB_OUTPUT"
 
       - name: 📥 Checkout Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
