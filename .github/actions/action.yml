@@ -1636,7 +1636,7 @@ runs:
 
     - name: Upload Artifacts
       if: success() && steps.create_zip.conclusion == 'success'
-      uses: actions/upload-artifact@v7
+      uses: actions/upload-artifact@v4
       with:
         name: kernel-${{ inputs.ksu_type }}-${{ env.CONFIG }}_${{ env.OP_OS_VERSION }}
         path: ${{ env.ARTIFACTS_FOLDER }}/
